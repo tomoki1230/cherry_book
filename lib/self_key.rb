@@ -22,6 +22,6 @@ class User
 end
 
 user = User.new("Alice")
-user.hello
-user.hi
-user.my_name
+puts user.hello
+puts user.hi
+puts user.my_name
